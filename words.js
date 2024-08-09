@@ -1,0 +1,41 @@
+const words = [
+    {word: "gato", clue: "Animal doméstico conhecido por sua independência"},
+    {word: "cachorro", clue: "Melhor amigo do homem, conhecido por sua lealdade"},
+    {word: "livro", clue: "Objeto cheio de páginas e conhecimento"},
+    {word: "computador", "clue": "Máquina usada para realizar cálculos e tarefas digitais"},
+    {word: "praia", clue: "Local onde areia e mar se encontram"},
+    {word: "montanha", clue: "Elevação natural do terreno, geralmente alta e rochosa"},
+    {word: "floresta", clue: "Área densa com muitas árvores e vegetação"},
+    {word: "carro", clue: "Veículo de quatro rodas usado para transporte terrestre"},
+    {word: "avião", clue: "Meio de transporte aéreo que voa"},
+    {word: "bicicleta", clue: "Veículo de duas rodas movido por pedais"},
+    {word: "piano", clue: "Instrumento musical de teclas, usado em várias composições clássicas"},
+    {word: "telefone", clue: "Dispositivo usado para comunicação de voz à distância"},
+    {word: "café", clue: "Bebida popular feita a partir de grãos torrados"},
+    {word: "chocolate", clue: "Doce feito a partir de cacau, geralmente amado por muitos"},
+    {word: "lua", clue: "Satélite natural da Terra, visível à noite"},
+    {word: "sol", clue: "Estrela central do nosso sistema solar"},
+    {word: "escola", clue: "Instituição onde se aprende e se ensina"},
+    {word: "dentista", clue: "Profissional que cuida da saúde bucal"},
+    {word: "medicina", clue: "Campo de estudo e prática focado na saúde e tratamento de doenças"},
+    {word: "internet", clue: "Rede mundial de computadores conectados, facilitando a comunicação e acesso a informações"},
+    {word: "jardim", clue: "Espaço ao ar livre onde se cultivam plantas e flores"},
+    {word: "oceano", clue: "Grande massa de água salgada que cobre a maior parte da superfície da Terra"},
+    {word: "deserto", clue: "Região árida com pouca precipitação e vegetação"},
+    {word: "vulcão", clue: "Abertura na superfície terrestre que expulsa lava, cinzas e gases"},
+    {word: "elefante", clue: "Grande mamífero conhecido por suas presas e tromba"},
+    {word: "girafa", clue: "Animal com o pescoço mais longo do mundo"},
+    {word: "biblioteca", clue: "Lugar onde se guardam e emprestam livros"},
+    {word: "futebol", clue: "Esporte jogado com uma bola e duas equipes de 11 jogadores"},
+    {word: "caminhão", clue: "Veículo grande usado para transportar cargas"},
+    {word: "avião", clue: "Meio de transporte aéreo que voa"},
+    {word: "bicicleta", clue: "Veículo de duas rodas movido por pedais"},
+    {word: "receita", clue: "Instruções para preparar um prato ou bebida"},
+    {word: "relógio", clue: "Objeto usado para medir e indicar o tempo"},
+    {word: "refrigerante", clue: "Bebida gaseificada, geralmente doce"},
+];
+
+export default function getWord(){
+    const index = Math.floor(Math.random() * words.length)
+    return words[index]
+}
